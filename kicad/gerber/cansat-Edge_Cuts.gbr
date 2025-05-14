@@ -1,0 +1,28 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.4*%
+%TF.CreationDate,2024-10-11T13:15:18-06:00*%
+%TF.ProjectId,cansat,63616e73-6174-42e6-9b69-6361645f7063,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.4) date 2024-10-11 13:15:18*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X198500000Y-86000000D02*
+G75*
+G02*
+X98500000Y-86000000I-50000000J0D01*
+G01*
+X98500000Y-86000000D02*
+G75*
+G02*
+X198500000Y-86000000I50000000J0D01*
+G01*
+M02*
