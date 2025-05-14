@@ -1,0 +1,5164 @@
+[
+    {
+        "id": "3fedc95127ac5e48",
+        "type": "tab",
+        "label": "Ingenieria",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9967dbd43d61c055",
+        "type": "tab",
+        "label": "Zona 8",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8cc328309df0de9b",
+        "type": "tab",
+        "label": "Zona 3 ",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5920b5fcb21dffce",
+        "type": "tab",
+        "label": "Misiones",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b03f20e68e5412c1",
+        "type": "tab",
+        "label": "Personalizado",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "51e805e12028fa4f",
+        "type": "tab",
+        "label": "Descarga",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ecf7a29fdbed6cf7",
+        "type": "tab",
+        "label": "redireccion",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "24b73bd0200bd6a6",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "3",
+        "keepalive": "5000",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "1280a38f63d3b16c",
+        "type": "ui_tab",
+        "name": "Estación Ingenieria",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7e14c2f7114021a7",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "tzunun Datos Abiertos de Calidad De aire",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "1ba5239eafe9dbf2",
+        "type": "ui_group",
+        "name": "Movimiento",
+        "tab": "1280a38f63d3b16c",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3affc80deadceef8",
+        "type": "ui_tab",
+        "name": "Cansat",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b1adf93a867e4a31",
+        "type": "ui_group",
+        "name": "Mapa",
+        "tab": "1280a38f63d3b16c",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5157e6a063abe246",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "3affc80deadceef8",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "0de844bc546cbd79",
+        "type": "ui_group",
+        "name": "Acelerometros",
+        "tab": "3affc80deadceef8",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "38ebfd0bb5c09caf",
+        "type": "ui_group",
+        "name": "Sensores",
+        "tab": "3affc80deadceef8",
+        "order": 3,
+        "disp": true,
+        "width": 13,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "663b9c278806686e",
+        "type": "ui_spacer",
+        "z": "5920b5fcb21dffce",
+        "name": "spacer",
+        "group": "38ebfd0bb5c09caf",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1689c6612aba57e6",
+        "type": "ui_spacer",
+        "z": "5920b5fcb21dffce",
+        "name": "spacer",
+        "group": "38ebfd0bb5c09caf",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0cc504bc3b7c3d9e",
+        "type": "ui_spacer",
+        "z": "5920b5fcb21dffce",
+        "name": "spacer",
+        "group": "38ebfd0bb5c09caf",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5807bd0c95a9331e",
+        "type": "ui_spacer",
+        "z": "5920b5fcb21dffce",
+        "name": "spacer",
+        "group": "38ebfd0bb5c09caf",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "21536a788a19e6be",
+        "type": "ui_spacer",
+        "z": "5920b5fcb21dffce",
+        "name": "spacer",
+        "group": "38ebfd0bb5c09caf",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "30eb5f9b69ce013b",
+        "type": "ui_spacer",
+        "z": "5920b5fcb21dffce",
+        "name": "spacer",
+        "group": "38ebfd0bb5c09caf",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dd95f06d2f41b011",
+        "type": "ui_spacer",
+        "z": "5920b5fcb21dffce",
+        "name": "spacer",
+        "group": "38ebfd0bb5c09caf",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f95f4eef866ba424",
+        "type": "ui_spacer",
+        "z": "5920b5fcb21dffce",
+        "name": "spacer",
+        "group": "38ebfd0bb5c09caf",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "75606db3997df2c8",
+        "type": "ui_spacer",
+        "z": "5920b5fcb21dffce",
+        "name": "spacer",
+        "group": "38ebfd0bb5c09caf",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "63bf524df2430736",
+        "type": "ui_spacer",
+        "z": "5920b5fcb21dffce",
+        "name": "spacer",
+        "group": "38ebfd0bb5c09caf",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b946213662ee1a13",
+        "type": "ui_spacer",
+        "z": "5920b5fcb21dffce",
+        "name": "spacer",
+        "group": "38ebfd0bb5c09caf",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0c29e93deadfbc25",
+        "type": "ui_spacer",
+        "z": "5920b5fcb21dffce",
+        "name": "spacer",
+        "group": "38ebfd0bb5c09caf",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c3dd51b753a90a2b",
+        "type": "ui_tab",
+        "name": "Descargar",
+        "icon": "download",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "de38b34b92ed2ef5",
+        "type": "ui_group",
+        "name": "Formulario Descargar",
+        "tab": "c3dd51b753a90a2b",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a9438b3e766f8d8e",
+        "type": "mongodb",
+        "hostname": "mongodb",
+        "topology": "direct",
+        "connectOptions": "authSource=admin",
+        "port": "27017",
+        "db": "sensores",
+        "name": ""
+    },
+    {
+        "id": "e430ab916aec97b3",
+        "type": "ui_tab",
+        "name": "Personalizado",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d7dfcc218fe69cf7",
+        "type": "ui_group",
+        "name": "Información",
+        "tab": "e430ab916aec97b3",
+        "order": 5,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4e07209d2352f01c",
+        "type": "ui_group",
+        "name": "Filtros",
+        "tab": "e430ab916aec97b3",
+        "order": 1,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1aa8ca07d00fd4d7",
+        "type": "ui_group",
+        "name": "Temperatura y humedad ",
+        "tab": "1280a38f63d3b16c",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ea8dfc49fa6750bc",
+        "type": "ui_group",
+        "name": "Presión, altitud y polvo ",
+        "tab": "1280a38f63d3b16c",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3f9c6fa8d14ed0da",
+        "type": "ui_spacer",
+        "z": "3fedc95127ac5e48",
+        "name": "spacer",
+        "group": "b1adf93a867e4a31",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6468e4d68f0770b5",
+        "type": "ui_group",
+        "name": "Datos",
+        "tab": "e430ab916aec97b3",
+        "order": 2,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7b8ca40ec955c1e8",
+        "type": "ui_group",
+        "name": "Presión, Altitud, Densidad de polvo",
+        "tab": "e430ab916aec97b3",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7b71828b12c23f56",
+        "type": "ui_tab",
+        "name": "Estación zona 8",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d6a75f10479a4457",
+        "type": "ui_tab",
+        "name": "Estación zona 3",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "99c3b2aba05979d2",
+        "type": "ui_group",
+        "name": "Mapa",
+        "tab": "7b71828b12c23f56",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c448dc4f7046820b",
+        "type": "ui_group",
+        "name": "Temperatura y humedad",
+        "tab": "7b71828b12c23f56",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1ca53f5ef5493dbf",
+        "type": "ui_group",
+        "name": "Presion, altitud, polvo",
+        "tab": "7b71828b12c23f56",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5b7b61dab8d9f003",
+        "type": "ui_group",
+        "name": "Mapa",
+        "tab": "d6a75f10479a4457",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7087a2dc732d543f",
+        "type": "ui_group",
+        "name": "Temperatura y humedad",
+        "tab": "d6a75f10479a4457",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e2383cb65157709f",
+        "type": "ui_group",
+        "name": "Presión, altitud, polvo ",
+        "tab": "d6a75f10479a4457",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "709a76596efe73df",
+        "type": "ui_group",
+        "name": "Luz",
+        "tab": "d6a75f10479a4457",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2c4292968fae96b3",
+        "type": "ui_group",
+        "name": "Luz",
+        "tab": "7b71828b12c23f56",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "59c94ade30f94bb4",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.emqx.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "b52663bbe9e2e642",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.emqx.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "3",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "bb9b9f53303c140f",
+        "type": "ui_group",
+        "name": "Luz",
+        "tab": "e430ab916aec97b3",
+        "order": 4,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e39f567e067cc5b8",
+        "type": "mqtt in",
+        "z": "3fedc95127ac5e48",
+        "name": "",
+        "topic": "/cansat/umes/",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "b52663bbe9e2e642",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "70a1af2858710f24",
+                "36afa2a983c3e525",
+                "33a03d89874aeca3"
+            ]
+        ]
+    },
+    {
+        "id": "70a1af2858710f24",
+        "type": "function",
+        "z": "3fedc95127ac5e48",
+        "name": "Convertir el CSV a objeto JSON",
+        "func": "\n// Obtener el payload que contiene el CSV\nconst csvData = msg.payload.toString();\nconst lines = csvData.split(\"\\n\");\nconst headers = lines[0].split(\",\");\n// Convertir el CSV a objeto JSON\nmsg.payload = headers;\nif (msg.payload[0] === \"1\"){\nreturn msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 520,
+        "wires": [
+            [
+                "2a05555b6bf01009",
+                "08a6fddc17e60ce5",
+                "77e26485391aedb0",
+                "e161c6dc568ab5a8",
+                "9054521e45a4fa9e",
+                "a01a129333ed74dd",
+                "d0b9366a33e19e0a",
+                "714dee9647e41959",
+                "5058f064d90b4299",
+                "63d82bb5c6790b0e",
+                "163f129b3e68b7d5",
+                "3c92644e590332a7"
+            ]
+        ]
+    },
+    {
+        "id": "4fcd1bd44541751f",
+        "type": "debug",
+        "z": "3fedc95127ac5e48",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "2a05555b6bf01009",
+        "type": "function",
+        "z": "3fedc95127ac5e48",
+        "name": "Datos temp. BMP",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 300,
+        "wires": [
+            [
+                "4fcd1bd44541751f",
+                "4c214daa2ec61452"
+            ]
+        ]
+    },
+    {
+        "id": "08a6fddc17e60ce5",
+        "type": "function",
+        "z": "3fedc95127ac5e48",
+        "name": "Datos pres. Barométrica",
+        "func": "msg.payload = msg.payload[2]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 340,
+        "wires": [
+            [
+                "b0e437b333d5462d"
+            ]
+        ]
+    },
+    {
+        "id": "77e26485391aedb0",
+        "type": "function",
+        "z": "3fedc95127ac5e48",
+        "name": "Datos altitud",
+        "func": "msg.payload = msg.payload[3]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 380,
+        "wires": [
+            [
+                "fe4b6ce53bc1a999"
+            ]
+        ]
+    },
+    {
+        "id": "e161c6dc568ab5a8",
+        "type": "function",
+        "z": "3fedc95127ac5e48",
+        "name": "Datos tem. ATH",
+        "func": "msg.payload = msg.payload[4]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 420,
+        "wires": [
+            [
+                "3b22df4ec250bcca",
+                "29b7912ca439352e"
+            ]
+        ]
+    },
+    {
+        "id": "9054521e45a4fa9e",
+        "type": "function",
+        "z": "3fedc95127ac5e48",
+        "name": "Datos hum. ATH",
+        "func": "msg.payload = msg.payload[5]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 460,
+        "wires": [
+            [
+                "9228ef38cac94354",
+                "cb68ceb461ddb656"
+            ]
+        ]
+    },
+    {
+        "id": "a01a129333ed74dd",
+        "type": "function",
+        "z": "3fedc95127ac5e48",
+        "name": "Datos acel. Eje x",
+        "func": "msg.payload = msg.payload[5]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 500,
+        "wires": [
+            [
+                "deac535bbf9533c6"
+            ]
+        ]
+    },
+    {
+        "id": "d0b9366a33e19e0a",
+        "type": "function",
+        "z": "3fedc95127ac5e48",
+        "name": "Datos acel. Eje y",
+        "func": "msg.payload = msg.payload[6]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 540,
+        "wires": [
+            [
+                "c781de6e706dee16"
+            ]
+        ]
+    },
+    {
+        "id": "714dee9647e41959",
+        "type": "function",
+        "z": "3fedc95127ac5e48",
+        "name": "Datos acel. eje z",
+        "func": "msg.payload = msg.payload[7]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 580,
+        "wires": [
+            [
+                "065a7aa344addcbd"
+            ]
+        ]
+    },
+    {
+        "id": "5058f064d90b4299",
+        "type": "function",
+        "z": "3fedc95127ac5e48",
+        "name": "Datos den. polvo",
+        "func": "msg.payload = msg.payload[9]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 620,
+        "wires": [
+            [
+                "f5fb7dfff751a6f6"
+            ]
+        ]
+    },
+    {
+        "id": "4c214daa2ec61452",
+        "type": "ui_chart",
+        "z": "3fedc95127ac5e48",
+        "name": "",
+        "group": "1aa8ca07d00fd4d7",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Temperatura BMP",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 990,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b0e437b333d5462d",
+        "type": "ui_chart",
+        "z": "3fedc95127ac5e48",
+        "name": "",
+        "group": "ea8dfc49fa6750bc",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Presión barométrica",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 980,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fe4b6ce53bc1a999",
+        "type": "ui_chart",
+        "z": "3fedc95127ac5e48",
+        "name": "",
+        "group": "ea8dfc49fa6750bc",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Altitud",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "3000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3b22df4ec250bcca",
+        "type": "ui_chart",
+        "z": "3fedc95127ac5e48",
+        "name": "",
+        "group": "1aa8ca07d00fd4d7",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Temperatura AHT",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "60",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 970,
+        "y": 420,
+        "wires": [
+            [
+                "3ef3d7a74a8ba148"
+            ]
+        ]
+    },
+    {
+        "id": "9228ef38cac94354",
+        "type": "ui_chart",
+        "z": "3fedc95127ac5e48",
+        "name": "",
+        "group": "1aa8ca07d00fd4d7",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Humedad Relativa AHT",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 990,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "deac535bbf9533c6",
+        "type": "ui_chart",
+        "z": "3fedc95127ac5e48",
+        "d": true,
+        "name": "",
+        "group": "1ba5239eafe9dbf2",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Acelerómetro X",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 960,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c781de6e706dee16",
+        "type": "ui_chart",
+        "z": "3fedc95127ac5e48",
+        "d": true,
+        "name": "",
+        "group": "1ba5239eafe9dbf2",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Acelerómetro Y",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 960,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "065a7aa344addcbd",
+        "type": "ui_chart",
+        "z": "3fedc95127ac5e48",
+        "d": true,
+        "name": "",
+        "group": "1ba5239eafe9dbf2",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Acelerómetro Z",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 960,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f5fb7dfff751a6f6",
+        "type": "ui_chart",
+        "z": "3fedc95127ac5e48",
+        "name": "",
+        "group": "ea8dfc49fa6750bc",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Densidad Polvo",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 960,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "63d82bb5c6790b0e",
+        "type": "function",
+        "z": "3fedc95127ac5e48",
+        "name": "Punto en el mapa ",
+        "func": "let datos = \"temperatura:\" + msg.payload[1];\ndatos += \" °C \\n presión:\" + msg.payload[2];\ndatos += \" Hpa \\n Altitud:\" + msg.payload[3];\ndatos += \" msnm \\n Humedad:\" + msg.payload[5];\ndatos += \" % \\n Densidad de polvo:\" + msg.payload[9];\ndatos += \" ug/m3\" ;\n\nmsg.payload =  {\n    \"name\": datos,\n    \"lat\": 14.8439081,\n    \"lon\": -91.5403452,\n    \"radius\": 50,\n    \"layer\": \"Heatmap\",\n    \"iconColor\": '#464646',\n    \"stroke\": false,\n    \"fillOpacity\": 0.8,\n    \"clickable\": true,\n    \"addtoheatmap\": true\n};\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 700,
+        "wires": [
+            [
+                "b22c0fac4e63d2e1"
+            ]
+        ]
+    },
+    {
+        "id": "b22c0fac4e63d2e1",
+        "type": "ui_worldmap",
+        "z": "3fedc95127ac5e48",
+        "group": "b1adf93a867e4a31",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "lat": "14.8342467",
+        "lon": "-91.5294747",
+        "zoom": "14",
+        "layer": "OSMG",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "hide",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriDG,UKOS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 940,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "291c6ef2bed31ae0",
+        "type": "mongodb out",
+        "z": "3fedc95127ac5e48",
+        "mongodb": "a9438b3e766f8d8e",
+        "name": "",
+        "collection": "datos",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "insert",
+        "x": 940,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "36afa2a983c3e525",
+        "type": "function",
+        "z": "3fedc95127ac5e48",
+        "name": "Almacenamiento en mongo",
+        "func": "\nlet currentDate = new Date();\nconst utcMinus6 = new Date(currentDate.getTime() - 6 * 60 * 60 * 1000);\nlet dateOnly = utcMinus6.toISOString().split(\"T\")[0]; // \"YYYY-MM-DD\"\nlet hourOnly = utcMinus6.toISOString().split(\"T\")[1]; // \"HH-MM-SS\"\nlet a = msg.payload.split(\",\");\nmsg.station = a[0];\nmsg.payload += \",\" + utcMinus6.getTime(); // Almacenar como objeto Date\nmsg.date = new Date(dateOnly);\nmsg.data = msg.payload;\ndelete msg.payload;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 240,
+        "wires": [
+            [
+                "291c6ef2bed31ae0",
+                "45022e0010239f6f"
+            ]
+        ]
+    },
+    {
+        "id": "45022e0010239f6f",
+        "type": "debug",
+        "z": "3fedc95127ac5e48",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "33a03d89874aeca3",
+        "type": "debug",
+        "z": "3fedc95127ac5e48",
+        "name": "debug 24",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "163f129b3e68b7d5",
+        "type": "function",
+        "z": "3fedc95127ac5e48",
+        "name": "Datos de luz",
+        "func": "msg.payload = msg.payload[10]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 660,
+        "wires": [
+            [
+                "397e7ee92c29598f"
+            ]
+        ]
+    },
+    {
+        "id": "397e7ee92c29598f",
+        "type": "ui_chart",
+        "z": "3fedc95127ac5e48",
+        "name": "",
+        "group": "ea8dfc49fa6750bc",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Intensidad de Luz",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 970,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3ef3d7a74a8ba148",
+        "type": "debug",
+        "z": "3fedc95127ac5e48",
+        "name": "debug 28",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "29b7912ca439352e",
+        "type": "debug",
+        "z": "3fedc95127ac5e48",
+        "name": "debug 29",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1230,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "cb68ceb461ddb656",
+        "type": "debug",
+        "z": "3fedc95127ac5e48",
+        "name": "debug 30",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1150,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "3c92644e590332a7",
+        "type": "debug",
+        "z": "3fedc95127ac5e48",
+        "name": "debug 31",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "e6975ef4107d0818",
+        "type": "inject",
+        "z": "3fedc95127ac5e48",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 860,
+        "wires": [
+            [
+                "2ea36e3eda465005"
+            ]
+        ]
+    },
+    {
+        "id": "2ea36e3eda465005",
+        "type": "debug",
+        "z": "3fedc95127ac5e48",
+        "name": "debug 58",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "_msgid",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "a8356963d9bd3960",
+        "type": "mqtt in",
+        "z": "9967dbd43d61c055",
+        "name": "",
+        "topic": "/cansat/umes/",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "b52663bbe9e2e642",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 300,
+        "wires": [
+            [
+                "57270df9019603c8",
+                "106490b5490c38eb"
+            ]
+        ]
+    },
+    {
+        "id": "57270df9019603c8",
+        "type": "function",
+        "z": "9967dbd43d61c055",
+        "name": "Convertir el CSV a objeto JSON",
+        "func": "\n// Obtener el payload que contiene el CSV\nconst csvData = msg.payload.toString();\nconst lines = csvData.split(\"\\n\");\nconst headers = lines[0].split(\",\");\n// Convertir el CSV a objeto JSON\nmsg.payload = headers;\nif (msg.payload[0] === \"2\"){\nreturn msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 440,
+        "wires": [
+            [
+                "def13e19b91121f2",
+                "de017be7af6bb1da",
+                "7876965b27bd1684",
+                "6085f356871e52b1",
+                "9f685205231a2fa5",
+                "e2b981d03e2e9c11",
+                "0ef5327134134f36",
+                "43ac48ca8fa7800b",
+                "247cbd47decc145e"
+            ]
+        ]
+    },
+    {
+        "id": "bd73ace5dd92515c",
+        "type": "debug",
+        "z": "9967dbd43d61c055",
+        "name": "debug 32",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "def13e19b91121f2",
+        "type": "function",
+        "z": "9967dbd43d61c055",
+        "name": "Datos temp. BMP",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 220,
+        "wires": [
+            [
+                "bd73ace5dd92515c",
+                "6b8d03798a19ae41"
+            ]
+        ]
+    },
+    {
+        "id": "de017be7af6bb1da",
+        "type": "function",
+        "z": "9967dbd43d61c055",
+        "name": "Datos pres. Barométrica",
+        "func": "msg.payload = msg.payload[2]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 260,
+        "wires": [
+            [
+                "2047010ca744ad89"
+            ]
+        ]
+    },
+    {
+        "id": "7876965b27bd1684",
+        "type": "function",
+        "z": "9967dbd43d61c055",
+        "name": "Datos altitud",
+        "func": "msg.payload = msg.payload[3]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 300,
+        "wires": [
+            [
+                "3f0d5703ca3208c5"
+            ]
+        ]
+    },
+    {
+        "id": "6085f356871e52b1",
+        "type": "function",
+        "z": "9967dbd43d61c055",
+        "name": "Datos tem. ATH",
+        "func": "msg.payload = msg.payload[4]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 340,
+        "wires": [
+            [
+                "86aa96e752a47aa1",
+                "e2a813b28264f4c2"
+            ]
+        ]
+    },
+    {
+        "id": "9f685205231a2fa5",
+        "type": "function",
+        "z": "9967dbd43d61c055",
+        "name": "Datos hum. ATH",
+        "func": "msg.payload = msg.payload[5]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 380,
+        "wires": [
+            [
+                "566315c5a12192a2",
+                "6965dbde74e947c3"
+            ]
+        ]
+    },
+    {
+        "id": "e2b981d03e2e9c11",
+        "type": "function",
+        "z": "9967dbd43d61c055",
+        "name": "Datos den. polvo",
+        "func": "msg.payload = msg.payload[9]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 420,
+        "wires": [
+            [
+                "41955de9f2c80f9f"
+            ]
+        ]
+    },
+    {
+        "id": "6b8d03798a19ae41",
+        "type": "ui_chart",
+        "z": "9967dbd43d61c055",
+        "name": "",
+        "group": "c448dc4f7046820b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Temperatura BMP",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "60",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2047010ca744ad89",
+        "type": "ui_chart",
+        "z": "9967dbd43d61c055",
+        "name": "",
+        "group": "1ca53f5ef5493dbf",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Presión barométrica",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1100,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3f0d5703ca3208c5",
+        "type": "ui_chart",
+        "z": "9967dbd43d61c055",
+        "name": "",
+        "group": "1ca53f5ef5493dbf",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Altitud",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "3000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1050,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "86aa96e752a47aa1",
+        "type": "ui_chart",
+        "z": "9967dbd43d61c055",
+        "name": "",
+        "group": "c448dc4f7046820b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Temperatura AHT",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "60",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1090,
+        "y": 340,
+        "wires": [
+            [
+                "0207d28dd2cb911d"
+            ]
+        ]
+    },
+    {
+        "id": "566315c5a12192a2",
+        "type": "ui_chart",
+        "z": "9967dbd43d61c055",
+        "name": "",
+        "group": "c448dc4f7046820b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Humedad Relativa AHT",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "41955de9f2c80f9f",
+        "type": "ui_chart",
+        "z": "9967dbd43d61c055",
+        "name": "",
+        "group": "1ca53f5ef5493dbf",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Densidad Polvo",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1080,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0ef5327134134f36",
+        "type": "function",
+        "z": "9967dbd43d61c055",
+        "name": "Punto en el mapa ",
+        "func": "let datos = \"temperatura:\" + msg.payload[1];\ndatos += \" °C \\n presión:\" + msg.payload[2];\ndatos += \" Hpa \\n Altitud:\" + msg.payload[3];\ndatos += \" msnm \\n Humedad:\" + msg.payload[5];\ndatos += \" % \\n Densidad de polvo:\" + msg.payload[9];\ndatos += \" ug/m3\" ;\n\nmsg.payload =  {\n    \"name\": datos,\n    \"lat\": 14.610201,\n    \"lon\": -90.5325941,\n    \"radius\": 50,\n    \"layer\": \"Heatmap\",\n    \"iconColor\": '#464646',\n    \"stroke\": false,\n    \"fillOpacity\": 0.8,\n    \"clickable\": true,\n    \"addtoheatmap\": true\n};\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 700,
+        "wires": [
+            [
+                "fab4875cd373d114"
+            ]
+        ]
+    },
+    {
+        "id": "fab4875cd373d114",
+        "type": "ui_worldmap",
+        "z": "9967dbd43d61c055",
+        "group": "99c3b2aba05979d2",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "lat": "14.6101533",
+        "lon": "-90.5325941",
+        "zoom": "18",
+        "layer": "OSMG",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "hide",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriDG,UKOS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 960,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "106490b5490c38eb",
+        "type": "debug",
+        "z": "9967dbd43d61c055",
+        "name": "debug 34",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "1ae2a6562c182965",
+        "type": "comment",
+        "z": "9967dbd43d61c055",
+        "name": "Recordatorio",
+        "info": "# Agregar data real del gps \n",
+        "x": 970,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "43ac48ca8fa7800b",
+        "type": "function",
+        "z": "9967dbd43d61c055",
+        "name": "Datos de luz",
+        "func": "msg.payload = msg.payload[10]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 460,
+        "wires": [
+            [
+                "96dca19e2cef9013"
+            ]
+        ]
+    },
+    {
+        "id": "96dca19e2cef9013",
+        "type": "ui_chart",
+        "z": "9967dbd43d61c055",
+        "name": "",
+        "group": "2c4292968fae96b3",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Intensidad de Luz",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1090,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0207d28dd2cb911d",
+        "type": "debug",
+        "z": "9967dbd43d61c055",
+        "name": "debug 35",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "e2a813b28264f4c2",
+        "type": "debug",
+        "z": "9967dbd43d61c055",
+        "name": "debug 36",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "6965dbde74e947c3",
+        "type": "debug",
+        "z": "9967dbd43d61c055",
+        "name": "debug 37",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "247cbd47decc145e",
+        "type": "debug",
+        "z": "9967dbd43d61c055",
+        "name": "debug 38",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "a287cd4125a6a050",
+        "type": "mqtt in",
+        "z": "9967dbd43d61c055",
+        "name": "",
+        "topic": "/asd/",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "24b73bd0200bd6a6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 120,
+        "wires": [
+            [
+                "0fe6fd570013a3d6"
+            ]
+        ]
+    },
+    {
+        "id": "0fe6fd570013a3d6",
+        "type": "debug",
+        "z": "9967dbd43d61c055",
+        "name": "debug 48",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c981d643d6548c3d",
+        "type": "mqtt in",
+        "z": "8cc328309df0de9b",
+        "name": "",
+        "topic": "/cansat/umes/",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "59c94ade30f94bb4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 320,
+        "wires": [
+            [
+                "5bfe7ea5424ef9b2",
+                "7069cf1ccaf877cd"
+            ]
+        ]
+    },
+    {
+        "id": "5bfe7ea5424ef9b2",
+        "type": "function",
+        "z": "8cc328309df0de9b",
+        "name": "Convertir el CSV a objeto JSON",
+        "func": "\n// Obtener el payload que contiene el CSV\nconst csvData = msg.payload.toString();\nconst lines = csvData.split(\"\\n\");\nconst headers = lines[0].split(\",\");\n// Convertir el CSV a objeto JSON\nmsg.payload = headers;\nif (msg.payload[0] === \"3\"){\nreturn msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 420,
+        "wires": [
+            [
+                "611bbab4a0c8a96d",
+                "a603f9792e0530ac",
+                "21129ca90b3f22ce",
+                "eebae9332cb306a1",
+                "f05de6aeff42cf5c",
+                "8dee5a3a90b8f43a",
+                "5c1ba7e276e3b444",
+                "9ffe1e955e005245",
+                "dd1ba4defc3dada3"
+            ]
+        ]
+    },
+    {
+        "id": "7ca79cbb805199eb",
+        "type": "debug",
+        "z": "8cc328309df0de9b",
+        "name": "debug 39",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "611bbab4a0c8a96d",
+        "type": "function",
+        "z": "8cc328309df0de9b",
+        "name": "Datos temp. BMP",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 200,
+        "wires": [
+            [
+                "7ca79cbb805199eb",
+                "6d330687c8dfdc9c"
+            ]
+        ]
+    },
+    {
+        "id": "a603f9792e0530ac",
+        "type": "function",
+        "z": "8cc328309df0de9b",
+        "name": "Datos pres. Barométrica",
+        "func": "msg.payload = msg.payload[2]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 240,
+        "wires": [
+            [
+                "877a8fca99381695"
+            ]
+        ]
+    },
+    {
+        "id": "21129ca90b3f22ce",
+        "type": "function",
+        "z": "8cc328309df0de9b",
+        "name": "Datos altitud",
+        "func": "msg.payload = msg.payload[3]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 280,
+        "wires": [
+            [
+                "b3bd875d4fcd7266"
+            ]
+        ]
+    },
+    {
+        "id": "eebae9332cb306a1",
+        "type": "function",
+        "z": "8cc328309df0de9b",
+        "name": "Datos tem. ATH",
+        "func": "msg.payload = msg.payload[4]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 320,
+        "wires": [
+            [
+                "3fff238b35a93884",
+                "cc3dcd7feda4c706"
+            ]
+        ]
+    },
+    {
+        "id": "f05de6aeff42cf5c",
+        "type": "function",
+        "z": "8cc328309df0de9b",
+        "name": "Datos hum. ATH",
+        "func": "msg.payload = msg.payload[5]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 360,
+        "wires": [
+            [
+                "605da6d772f11568",
+                "9164e28bdf719321"
+            ]
+        ]
+    },
+    {
+        "id": "8dee5a3a90b8f43a",
+        "type": "function",
+        "z": "8cc328309df0de9b",
+        "name": "Datos den. polvo",
+        "func": "msg.payload = msg.payload[9]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 400,
+        "wires": [
+            [
+                "4c953a094c03c248"
+            ]
+        ]
+    },
+    {
+        "id": "6d330687c8dfdc9c",
+        "type": "ui_chart",
+        "z": "8cc328309df0de9b",
+        "name": "",
+        "group": "7087a2dc732d543f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Temperatura BMP",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "60",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1030,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "877a8fca99381695",
+        "type": "ui_chart",
+        "z": "8cc328309df0de9b",
+        "name": "",
+        "group": "e2383cb65157709f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Presión barométrica",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1020,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b3bd875d4fcd7266",
+        "type": "ui_chart",
+        "z": "8cc328309df0de9b",
+        "name": "",
+        "group": "e2383cb65157709f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Altitud",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "3000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 970,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3fff238b35a93884",
+        "type": "ui_chart",
+        "z": "8cc328309df0de9b",
+        "name": "",
+        "group": "7087a2dc732d543f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Temperatura AHT",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "60",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1010,
+        "y": 320,
+        "wires": [
+            [
+                "d834b37dc66ddd7c"
+            ]
+        ]
+    },
+    {
+        "id": "605da6d772f11568",
+        "type": "ui_chart",
+        "z": "8cc328309df0de9b",
+        "name": "",
+        "group": "7087a2dc732d543f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Humedad Relativa AHT",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1030,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4c953a094c03c248",
+        "type": "ui_chart",
+        "z": "8cc328309df0de9b",
+        "name": "",
+        "group": "e2383cb65157709f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Densidad Polvo",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1000,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5c1ba7e276e3b444",
+        "type": "function",
+        "z": "8cc328309df0de9b",
+        "name": "Punto en el mapa ",
+        "func": "let datos = \"temperatura:\" + msg.payload[1];\ndatos += \" °C \\n presión:\" + msg.payload[2];\ndatos += \" Hpa \\n Altitud:\" + msg.payload[3];\ndatos += \" msnm \\n Humedad:\" + msg.payload[5];\ndatos += \" % \\n Densidad de polvo:\" + msg.payload[9];\ndatos += \" ug/m3\" ;\n\nmsg.payload =  {\n    \"name\": datos,\n    \"lat\": 14.8427403,\n    \"lon\": -91.5206841,\n    \"radius\": 50,\n    \"layer\": \"Heatmap\",\n    \"iconColor\": '#464646',\n    \"stroke\": false,\n    \"fillOpacity\": 0.8,\n    \"clickable\": true,\n    \"addtoheatmap\": true\n};\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 680,
+        "wires": [
+            [
+                "31cb8e483cd92016"
+            ]
+        ]
+    },
+    {
+        "id": "31cb8e483cd92016",
+        "type": "ui_worldmap",
+        "z": "8cc328309df0de9b",
+        "group": "5b7b61dab8d9f003",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "lat": "14.8427403",
+        "lon": "-91.5206841",
+        "zoom": "16",
+        "layer": "OSMG",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "hide",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriDG,UKOS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 880,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "7069cf1ccaf877cd",
+        "type": "debug",
+        "z": "8cc328309df0de9b",
+        "name": "debug 41",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "5af9eaf3f629b746",
+        "type": "comment",
+        "z": "8cc328309df0de9b",
+        "name": "Recordatorio",
+        "info": "# Agregar data real del gps \n",
+        "x": 890,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "9ffe1e955e005245",
+        "type": "function",
+        "z": "8cc328309df0de9b",
+        "name": "Datos de luz",
+        "func": "msg.payload = msg.payload[10]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 440,
+        "wires": [
+            [
+                "66f0e0b71f878bbc",
+                "daf98373e80a0463"
+            ]
+        ]
+    },
+    {
+        "id": "66f0e0b71f878bbc",
+        "type": "ui_chart",
+        "z": "8cc328309df0de9b",
+        "name": "",
+        "group": "709a76596efe73df",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Intensidad de Luz",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1010,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d834b37dc66ddd7c",
+        "type": "debug",
+        "z": "8cc328309df0de9b",
+        "name": "debug 42",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "cc3dcd7feda4c706",
+        "type": "debug",
+        "z": "8cc328309df0de9b",
+        "name": "debug 43",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "9164e28bdf719321",
+        "type": "debug",
+        "z": "8cc328309df0de9b",
+        "name": "debug 44",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "dd1ba4defc3dada3",
+        "type": "debug",
+        "z": "8cc328309df0de9b",
+        "name": "debug 45",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "daf98373e80a0463",
+        "type": "debug",
+        "z": "8cc328309df0de9b",
+        "name": "debug 46",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "9cd40e3369516cc4",
+        "type": "mqtt in",
+        "z": "5920b5fcb21dffce",
+        "name": "",
+        "topic": "/cansat/umes/mision",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "59c94ade30f94bb4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 500,
+        "wires": [
+            [
+                "4117d9f707bf4740",
+                "96c2593ea9c4b2f0"
+            ]
+        ]
+    },
+    {
+        "id": "4117d9f707bf4740",
+        "type": "function",
+        "z": "5920b5fcb21dffce",
+        "name": "function 14",
+        "func": "\n\n\n// Obtener el payload que contiene el CSV\nconst csvData = msg.payload.toString();\nconst lines = csvData.split(\"\\n\");\nconst headers = lines[0].split(\",\");\n// Convertir el CSV a objeto JSON\nmsg.payload = headers;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 500,
+        "wires": [
+            [
+                "b927074e5c1435cd",
+                "4c181292831d9ac7",
+                "fbc49971a17ad066",
+                "edd0c21f091da846",
+                "07065bc604eb3793",
+                "fdd42709cfd281bf",
+                "d1f4708621517d8d",
+                "6a29acabe0560d10",
+                "b33192ac5317ce69",
+                "f369c68762a0d060"
+            ]
+        ]
+    },
+    {
+        "id": "85b4282e6ede5b34",
+        "type": "debug",
+        "z": "5920b5fcb21dffce",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "b927074e5c1435cd",
+        "type": "function",
+        "z": "5920b5fcb21dffce",
+        "name": "function 15",
+        "func": "msg.payload = msg.payload[0]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 340,
+        "wires": [
+            [
+                "85b4282e6ede5b34",
+                "6a97c2f09a62b8ee"
+            ]
+        ]
+    },
+    {
+        "id": "4c181292831d9ac7",
+        "type": "function",
+        "z": "5920b5fcb21dffce",
+        "name": "function 16",
+        "func": "msg.payload = msg.payload[1]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 380,
+        "wires": [
+            [
+                "75e9c1f73d6bc5c4"
+            ]
+        ]
+    },
+    {
+        "id": "fbc49971a17ad066",
+        "type": "function",
+        "z": "5920b5fcb21dffce",
+        "name": "function 17",
+        "func": "msg.payload = msg.payload[2]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 420,
+        "wires": [
+            [
+                "e6f04591d1f6038f"
+            ]
+        ]
+    },
+    {
+        "id": "edd0c21f091da846",
+        "type": "function",
+        "z": "5920b5fcb21dffce",
+        "name": "function 18",
+        "func": "msg.payload = msg.payload[3]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 460,
+        "wires": [
+            [
+                "38a917ef6d872002"
+            ]
+        ]
+    },
+    {
+        "id": "07065bc604eb3793",
+        "type": "function",
+        "z": "5920b5fcb21dffce",
+        "name": "function 19",
+        "func": "msg.payload = msg.payload[4]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 500,
+        "wires": [
+            [
+                "b7ee846808552349"
+            ]
+        ]
+    },
+    {
+        "id": "fdd42709cfd281bf",
+        "type": "function",
+        "z": "5920b5fcb21dffce",
+        "name": "function 20",
+        "func": "msg.payload = msg.payload[5]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 540,
+        "wires": [
+            [
+                "9404a606af38996b"
+            ]
+        ]
+    },
+    {
+        "id": "d1f4708621517d8d",
+        "type": "function",
+        "z": "5920b5fcb21dffce",
+        "name": "function 21",
+        "func": "msg.payload = msg.payload[6]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 580,
+        "wires": [
+            [
+                "436c7b4fc6eb6fba"
+            ]
+        ]
+    },
+    {
+        "id": "6a29acabe0560d10",
+        "type": "function",
+        "z": "5920b5fcb21dffce",
+        "name": "function 22",
+        "func": "msg.payload = msg.payload[7]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 620,
+        "wires": [
+            [
+                "ec71673a6d9d9522"
+            ]
+        ]
+    },
+    {
+        "id": "b33192ac5317ce69",
+        "type": "function",
+        "z": "5920b5fcb21dffce",
+        "name": "function 23",
+        "func": "msg.payload = msg.payload[8]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 660,
+        "wires": [
+            [
+                "413b4ae671180259"
+            ]
+        ]
+    },
+    {
+        "id": "6a97c2f09a62b8ee",
+        "type": "ui_chart",
+        "z": "5920b5fcb21dffce",
+        "name": "",
+        "group": "38ebfd0bb5c09caf",
+        "order": 13,
+        "width": 6,
+        "height": 4,
+        "label": "Temperatura BMP",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 940,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "75e9c1f73d6bc5c4",
+        "type": "ui_chart",
+        "z": "5920b5fcb21dffce",
+        "name": "",
+        "group": "38ebfd0bb5c09caf",
+        "order": 2,
+        "width": 6,
+        "height": 4,
+        "label": "Presión barométrica",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e6f04591d1f6038f",
+        "type": "ui_chart",
+        "z": "5920b5fcb21dffce",
+        "name": "",
+        "group": "38ebfd0bb5c09caf",
+        "order": 14,
+        "width": 6,
+        "height": 4,
+        "label": "Altitud",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 900,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "38a917ef6d872002",
+        "type": "ui_chart",
+        "z": "5920b5fcb21dffce",
+        "name": "",
+        "group": "38ebfd0bb5c09caf",
+        "order": 1,
+        "width": 6,
+        "height": 4,
+        "label": "Temperatura AHT",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 940,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b7ee846808552349",
+        "type": "ui_chart",
+        "z": "5920b5fcb21dffce",
+        "name": "",
+        "group": "38ebfd0bb5c09caf",
+        "order": 7,
+        "width": 6,
+        "height": 4,
+        "label": "Humedad Relativa AHT",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 960,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9404a606af38996b",
+        "type": "ui_chart",
+        "z": "5920b5fcb21dffce",
+        "name": "",
+        "group": "0de844bc546cbd79",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Acelerómetro X",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "436c7b4fc6eb6fba",
+        "type": "ui_chart",
+        "z": "5920b5fcb21dffce",
+        "name": "",
+        "group": "0de844bc546cbd79",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Acelerómetro Y",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec71673a6d9d9522",
+        "type": "ui_chart",
+        "z": "5920b5fcb21dffce",
+        "name": "",
+        "group": "0de844bc546cbd79",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Acelerómetro Z",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "413b4ae671180259",
+        "type": "ui_chart",
+        "z": "5920b5fcb21dffce",
+        "name": "",
+        "group": "38ebfd0bb5c09caf",
+        "order": 8,
+        "width": 6,
+        "height": 4,
+        "label": "Densidad Polvo",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f369c68762a0d060",
+        "type": "function",
+        "z": "5920b5fcb21dffce",
+        "name": "function 24",
+        "func": "let datos = \"temperatura:\" + msg.payload[0];\ndatos += \" °C \\n presión:\" + msg.payload[1];\ndatos += \" Hpa \\n Altitud:\" + msg.payload[2];\ndatos += \" msnm \\n Humedad:\" + msg.payload[4];\ndatos += \" % \\n Densidad de polvo:\" + msg.payload[8];\ndatos += \" ug/m3\" ;\n\nmsg.payload =  {\n    \"name\": datos,\n    \"lat\": 14.8439081,\n    \"lon\": -91.5403452,\n    \"radius\": 50,\n    \"layer\": \"Heatmap\",\n    \"iconColor\": '#464646',\n    \"stroke\": false,\n    \"fillOpacity\": 0.8,\n    \"clickable\": true,\n    \"addtoheatmap\": true\n};\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 740,
+        "wires": [
+            [
+                "b4569055390bbbe2"
+            ]
+        ]
+    },
+    {
+        "id": "b4569055390bbbe2",
+        "type": "ui_worldmap",
+        "z": "5920b5fcb21dffce",
+        "group": "5157e6a063abe246",
+        "order": 1,
+        "width": 6,
+        "height": 12,
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "zoom": "",
+        "layer": "OSMG",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "hide",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriDG,UKOS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 940,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "96c2593ea9c4b2f0",
+        "type": "function",
+        "z": "5920b5fcb21dffce",
+        "name": "Almacenamiento en mongo",
+        "func": "\nlet currentDate = new Date();\nconst utcMinus6 = new Date(currentDate.getTime() - 6 * 60 * 60 * 1000);\nlet dateOnly = utcMinus6.toISOString().split(\"T\")[0]; // \"YYYY-MM-DD\"\nlet hourOnly = utcMinus6.toISOString().split(\"T\")[1]; // \"HH-MM-SS\"\n\nmsg.payload += \",\" + utcMinus6.getTime(); // Almacenar como objeto Date\nmsg.date = new Date(dateOnly);\nmsg.data = msg.payload;\ndelete msg.payload;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 200,
+        "wires": [
+            [
+                "7d3749c53fa32232",
+                "97740940ad09d9db"
+            ]
+        ]
+    },
+    {
+        "id": "7d3749c53fa32232",
+        "type": "mongodb out",
+        "z": "5920b5fcb21dffce",
+        "mongodb": "a9438b3e766f8d8e",
+        "name": "",
+        "collection": "mision",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "insert",
+        "x": 980,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "97740940ad09d9db",
+        "type": "debug",
+        "z": "5920b5fcb21dffce",
+        "name": "debug 26",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "041dc07f7a3ef005",
+        "type": "ui_table",
+        "z": "b03f20e68e5412c1",
+        "group": "d7dfcc218fe69cf7",
+        "name": "",
+        "order": 1,
+        "width": 10,
+        "height": 12,
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 1110,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "252b77de4110e3d4",
+        "type": "ui_form",
+        "z": "b03f20e68e5412c1",
+        "name": "",
+        "label": "",
+        "group": "4e07209d2352f01c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Fecha inicio",
+                "value": "initDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Fecha final",
+                "value": "endDate",
+                "type": "date",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Estación ingenieria",
+                "value": "station1",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Estación zona 3",
+                "value": "station2",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Estación zona 8",
+                "value": "station3",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Cantida de Datos",
+                "value": "limit",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "initDate": "",
+            "endDate": "",
+            "station1": false,
+            "station2": false,
+            "station3": false,
+            "limit": ""
+        },
+        "payload": "",
+        "submit": "Consultar",
+        "cancel": "Cancelar",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 190,
+        "y": 360,
+        "wires": [
+            [
+                "5240e4804f32e99f",
+                "6c5673bd7f116476"
+            ]
+        ]
+    },
+    {
+        "id": "5240e4804f32e99f",
+        "type": "debug",
+        "z": "b03f20e68e5412c1",
+        "name": "debug 18",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "6c5673bd7f116476",
+        "type": "function",
+        "z": "b03f20e68e5412c1",
+        "name": "Query mongoDB",
+        "func": "// Obtener la fecha inicial desde msg.payload.initDate\nlet initDate = new Date(msg.payload.initDate);\n\n// Ajustar la fecha a UTC-6 (Zona Horaria Central)\nlet initDateUTC6 = new Date(initDate);\ninitDateUTC6.setHours(initDate.getHours() - 6);\n\nmsg.limit = msg.payload.limit; // Asegurar que es número\n\n// Construir el query base\nlet query = {\n    \"date\": {\n        \"$gte\": initDateUTC6\n    }\n};\n\n// Si endDate está presente, ajustar el rango\nif (msg.payload.endDate) {\n    let endDate = new Date(msg.payload.endDate);\n    let endDateUTC6 = endDate;\n    endDateUTC6.setHours(endDate.getHours() - 6);\n\n    query.date = {\n        \"$gte\": initDateUTC6,\n        \"$lt\": endDateUTC6\n    };\n}\n\n// Filtrar por estaciones según las opciones seleccionadas\nif (msg.payload.hasOwnProperty('station1') ||\n    msg.payload.hasOwnProperty('station2') ||\n    msg.payload.hasOwnProperty('station3')) {\n\n    // Verificar si todas están en false\n    const allFalse = (\n        (msg.payload.station1 === false || !msg.payload.hasOwnProperty('station1')) &&\n        (msg.payload.station2 === false || !msg.payload.hasOwnProperty('station2')) &&\n        (msg.payload.station3 === false || !msg.payload.hasOwnProperty('station3'))\n    );\n\n    if (!allFalse) {\n        // Crear array de estaciones seleccionadas\n        let stations = [];\n\n        if (msg.payload.station1 === true) {\n            stations.push(\"1\");\n        }\n        if (msg.payload.station2 === true) {\n            stations.push(\"2\");\n        }\n        if (msg.payload.station3 === true) {\n            stations.push(\"3\");\n        }\n\n        // Añadir condición al query solo si hay estaciones seleccionadas\n        if (stations.length > 0) {\n            query.station = { \"$in\": stations };\n        }\n    }\n    // Si todas son false, no se añade filtro y se muestran todas\n}\n\n// Configurar el mensaje final\nmsg.payload = query;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 400,
+        "wires": [
+            [
+                "d8c56f225be1ef90",
+                "8154a78b68d0bfd5"
+            ]
+        ]
+    },
+    {
+        "id": "c8e093365828ed90",
+        "type": "inject",
+        "z": "b03f20e68e5412c1",
+        "name": "est1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"initDate\":\"2025-03-20T06:00:00.000Z\",\"endDate\":null,\"station1\":true,\"station2\":false,\"station3\":false,\"limit\":120}",
+        "payloadType": "json",
+        "x": 150,
+        "y": 420,
+        "wires": [
+            [
+                "6c5673bd7f116476"
+            ]
+        ]
+    },
+    {
+        "id": "d8c56f225be1ef90",
+        "type": "debug",
+        "z": "b03f20e68e5412c1",
+        "name": "debug 19",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "8154a78b68d0bfd5",
+        "type": "mongodb in",
+        "z": "b03f20e68e5412c1",
+        "mongodb": "a9438b3e766f8d8e",
+        "name": "",
+        "collection": "datos",
+        "operation": "find",
+        "x": 680,
+        "y": 460,
+        "wires": [
+            [
+                "f2c792f5083dbe5a",
+                "34c6877f55b733de"
+            ]
+        ]
+    },
+    {
+        "id": "f2c792f5083dbe5a",
+        "type": "function",
+        "z": "b03f20e68e5412c1",
+        "name": "function 30",
+        "func": "// Parsear el contenido de msg.payload\nlet rawPayload = typeof msg.payload === 'string' ? JSON.parse(msg.payload) : msg.payload;\nlet index = 0;\n\nlet tableData = rawPayload.map(item => {\n    index++;\n\n    // 1. Validación inicial de estructura\n    if (!item.data || typeof item.data !== 'string') {\n        node.warn(`Ítem ${index}: 'data' no es un string o no existe.`);\n        return null;\n    }\n\n    // 2. Dividir y validar cantidad de elementos\n    let dataValues = item.data.split(',');\n    if (dataValues.length < 12) {\n        node.warn(`Ítem ${index}: 'data' no tiene suficientes valores (${dataValues.length}).`);\n        return null;\n    }\n\n    // 3. Convertir valores numéricos\n    const rawValues = {\n        bmpTemp: parseFloat(dataValues[1]),    // bmpTemperature (índice 1)\n        pressure: parseFloat(dataValues[2]),    // pressure (índice 2)\n        altitude: parseFloat(dataValues[3]),    // altitude (índice 3)\n        ahtTemp: parseFloat(dataValues[4]),    // ahtTemperature (índice 4)\n        ahtHum: parseFloat(dataValues[5]),    // ahtHumidity (índice 5)\n        dust: parseFloat(dataValues[9]),    // dustDensity (índice 9)\n        light: parseFloat(dataValues[10]),   // photoResistorValue (índice 10)\n        timestamp: parseInt(dataValues[11])      // timestamp (índice 11)\n    };\n\n    // 4. Validación de conversiones numéricas\n    if (Object.values(rawValues).some(v => isNaN(v))) {\n        return null;\n    }\n\n    // 5. Crear objeto temporal con timestamp como Date\n    const tempItem = {\n        \"indice\": index,\n        \"Timestamp\": new Date(rawValues.timestamp),\n        \"BMP Temperature\": rawValues.bmpTemp,\n        \"Pressure\": rawValues.pressure,\n        \"Altitude\": rawValues.altitude,\n        \"AHT Temperature\": rawValues.ahtTemp,\n        \"AHT Humidity\": rawValues.ahtHum,\n        \"Dust Density\": rawValues.dust,\n        \"Solar Intensity\": rawValues.light\n    };\n\n    // 6. Validaciones de rango y consistencia ACTUALIZADAS\n    const isValid = (\n        (tempItem[\"BMP Temperature\"] >= -40 && tempItem[\"BMP Temperature\"] <= 85) &&      // Rango típico BMP\n        (tempItem[\"Pressure\"] >= 300 && tempItem[\"Pressure\"] <= 1100) &&                  // Rango presión atmosférica\n        (tempItem[\"Altitude\"] >= 0 && tempItem[\"Altitude\"] <= 5000) &&                    // Rango altitud más realista\n        (tempItem[\"AHT Temperature\"] >= -40 && tempItem[\"AHT Temperature\"] <= 85) &&      // Rango AHT\n        (tempItem[\"AHT Humidity\"] >= 0 && tempItem[\"AHT Humidity\"] <= 100) &&             // Permite 0-100%\n        (tempItem[\"Dust Density\"] >= 0) &&\n        (tempItem[\"Solar Intensity\"] >= 0) &&\n        !isNaN(tempItem[\"Timestamp\"].getTime())  // Validación de fecha\n    );\n\n    // 7. Formateo final si pasa validaciones\n    if (isValid) {\n        tempItem[\"Timestamp\"] = tempItem[\"Timestamp\"].toLocaleString();\n        return tempItem;\n    } \n    return null;\n\n}).filter(item => item !== null);  // 8. Filtrado final\n\n// Preparar mensaje de salida\nmsg.payload = tableData;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 500,
+        "wires": [
+            [
+                "041dc07f7a3ef005",
+                "6e911fe1f6459ffd",
+                "6c14b29dccdb4bb8",
+                "eaed1ebed1376905",
+                "c22f9258691ca8b9",
+                "6329bbf0280268b6",
+                "42131f0e252d59c6",
+                "aa03950f6cfeb0f4",
+                "277fd346f91346ec"
+            ]
+        ]
+    },
+    {
+        "id": "34c6877f55b733de",
+        "type": "debug",
+        "z": "b03f20e68e5412c1",
+        "name": "debug 20",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "6e911fe1f6459ffd",
+        "type": "debug",
+        "z": "b03f20e68e5412c1",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1140,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "6c14b29dccdb4bb8",
+        "type": "function",
+        "z": "b03f20e68e5412c1",
+        "name": "function 32",
+        "func": "// Obtener los datos de entrada\nlet payload = msg.payload;\n\n// Crear un arreglo para almacenar los datos de temperatura del BMP\nlet bmpTemperatureData = [];\n\n// Recorrer cada entrada y extraer la temperatura del BMP\npayload.forEach((entry) => {\n    // Convertir el timestamp a un formato numérico (milisegundos desde 1970)\n    let timestamp = new Date(entry.Timestamp).getTime();\n    // Agregar el punto de datos para la temperatura del BMP\n    bmpTemperatureData.push({ x: timestamp, y: entry[\"BMP Temperature\"] });\n});\n\n// Crear el objeto de salida\nlet chart = [{\n    series: [\"BMP Temperature\"], // Nombre de la serie\n    data: [bmpTemperatureData],  // Datos de temperatura del BMP\n    labels: [\"\"]                 // Etiquetas (puedes personalizarlas)\n}];\n\n// Asignar el resultado al payload de salida\nmsg.payload = chart;\n\n// Devolver el mensaje\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 580,
+        "wires": [
+            [
+                "f08e6964a6ce3d25",
+                "d022bce47e80fc3f"
+            ]
+        ]
+    },
+    {
+        "id": "f08e6964a6ce3d25",
+        "type": "ui_chart",
+        "z": "b03f20e68e5412c1",
+        "name": "",
+        "group": "6468e4d68f0770b5",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Temperatura 1 ",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1540,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "04eeea3dd6813edd",
+        "type": "ui_chart",
+        "z": "b03f20e68e5412c1",
+        "name": "",
+        "group": "7b8ca40ec955c1e8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Presión",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1520,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ddd25e2e99fb58e0",
+        "type": "ui_chart",
+        "z": "b03f20e68e5412c1",
+        "name": "",
+        "group": "7b8ca40ec955c1e8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Altitud",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1510,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "49e71c6768f987ad",
+        "type": "ui_chart",
+        "z": "b03f20e68e5412c1",
+        "name": "",
+        "group": "6468e4d68f0770b5",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Temperatura 2",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1540,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6b885496c5ca3284",
+        "type": "ui_chart",
+        "z": "b03f20e68e5412c1",
+        "name": "",
+        "group": "6468e4d68f0770b5",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Humedad Relativa",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1550,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eaed1ebed1376905",
+        "type": "function",
+        "z": "b03f20e68e5412c1",
+        "name": "function 33",
+        "func": "// Obtener los datos de entrada\nlet payload = msg.payload;\n\n// Crear un arreglo para almacenar los datos de temperatura del BMP\nlet bmpTemperatureData = [];\n\n// Recorrer cada entrada y extraer la temperatura del BMP\npayload.forEach((entry) => {\n    // Convertir el timestamp a un formato numérico (milisegundos desde 1970)\n    let timestamp = new Date(entry.Timestamp).getTime();\n    // Agregar el punto de datos para la temperatura del BMP\n    bmpTemperatureData.push({ x: timestamp, y: entry[\"Pressure\"] });\n});\n\n// Crear el objeto de salida\nlet chart = [{\n    series: [\"Presión Barometrica\"], // Nombre de la serie\n    data: [bmpTemperatureData],  // Datos de temperatura del BMP\n    labels: [\"\"]                 // Etiquetas (puedes personalizarlas)\n}];\n\n// Asignar el resultado al payload de salida\nmsg.payload = chart;\n\n// Devolver el mensaje\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 620,
+        "wires": [
+            [
+                "04eeea3dd6813edd"
+            ]
+        ]
+    },
+    {
+        "id": "c22f9258691ca8b9",
+        "type": "function",
+        "z": "b03f20e68e5412c1",
+        "name": "function 34",
+        "func": "// Obtener los datos de entrada\nlet payload = msg.payload;\n\n// Crear un arreglo para almacenar los datos de temperatura del BMP\nlet bmpTemperatureData = [];\n\n// Recorrer cada entrada y extraer la temperatura del BMP\npayload.forEach((entry) => {\n    // Convertir el timestamp a un formato numérico (milisegundos desde 1970)\n    let timestamp = new Date(entry.Timestamp).getTime();\n    // Agregar el punto de datos para la temperatura del BMP\n    bmpTemperatureData.push({ x: timestamp, y: entry[\"Altitude\"] });\n});\n\n// Crear el objeto de salida\nlet chart = [{\n    series: [\"Altitud\"], // Nombre de la serie\n    data: [bmpTemperatureData],  // Datos de temperatura del BMP\n    labels: [\"\"]                 // Etiquetas (puedes personalizarlas)\n}];\n\n// Asignar el resultado al payload de salida\nmsg.payload = chart;\n\n// Devolver el mensaje\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 660,
+        "wires": [
+            [
+                "ddd25e2e99fb58e0"
+            ]
+        ]
+    },
+    {
+        "id": "6329bbf0280268b6",
+        "type": "function",
+        "z": "b03f20e68e5412c1",
+        "name": "function 35",
+        "func": "// Obtener los datos de entrada\nlet payload = msg.payload;\n\n// Crear un arreglo para almacenar los datos de temperatura del BMP\nlet bmpTemperatureData = [];\n\n// Recorrer cada entrada y extraer la temperatura del BMP\npayload.forEach((entry) => {\n    // Convertir el timestamp a un formato numérico (milisegundos desde 1970)\n    let timestamp = new Date(entry.Timestamp).getTime();\n    // Agregar el punto de datos para la temperatura del BMP\n    bmpTemperatureData.push({ x: timestamp, y: entry[\"AHT Temperature\"] });\n});\n\n// Crear el objeto de salida\nlet chart = [{\n    series: [\"Temperatura 2\"], // Nombre de la serie\n    data: [bmpTemperatureData],  // Datos de temperatura del BMP\n    labels: [\"\"]                 // Etiquetas (puedes personalizarlas)\n}];\n\n// Asignar el resultado al payload de salida\nmsg.payload = chart;\n\n\n// Devolver el mensaje\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 700,
+        "wires": [
+            [
+                "49e71c6768f987ad"
+            ]
+        ]
+    },
+    {
+        "id": "42131f0e252d59c6",
+        "type": "function",
+        "z": "b03f20e68e5412c1",
+        "name": "function 36",
+        "func": "// Obtener los datos de entrada\nlet payload = msg.payload;\n\n// Crear un arreglo para almacenar los datos de temperatura del BMP\nlet bmpTemperatureData = [];\n\n// Recorrer cada entrada y extraer la temperatura del BMP\npayload.forEach((entry) => {\n    // Convertir el timestamp a un formato numérico (milisegundos desde 1970)\n    let timestamp = new Date(entry.Timestamp).getTime();\n    // Agregar el punto de datos para la temperatura del BMP\n    bmpTemperatureData.push({ x: timestamp, y: entry[\"AHT Humidity\"] });\n});\n\n// Crear el objeto de salida\nlet chart = [{\n    series: [\"Humedad Relativa\"], // Nombre de la serie\n    data: [bmpTemperatureData],  // Datos de temperatura del BMP\n    labels: [\"\"]                 // Etiquetas (puedes personalizarlas)\n}];\n\n// Asignar el resultado al payload de salida\nmsg.payload = chart;\n\n\n// Devolver el mensaje\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 740,
+        "wires": [
+            [
+                "6b885496c5ca3284"
+            ]
+        ]
+    },
+    {
+        "id": "aa03950f6cfeb0f4",
+        "type": "function",
+        "z": "b03f20e68e5412c1",
+        "name": "function 37",
+        "func": "// Obtener los datos de entrada\nlet payload = msg.payload;\n\n// Crear un arreglo para almacenar los datos de temperatura del BMP\nlet bmpTemperatureData = [];\n\n// Recorrer cada entrada y extraer la temperatura del BMP\npayload.forEach((entry) => {\n    // Convertir el timestamp a un formato numérico (milisegundos desde 1970)\n    let timestamp = new Date(entry.Timestamp).getTime();\n    // Agregar el punto de datos para la temperatura del BMP\n    bmpTemperatureData.push({ x: timestamp, y: entry[\"Dust Density\"] });\n});\n\n// Crear el objeto de salida\nlet chart = [{\n    series: [\"PPM \"], // Nombre de la serie\n    data: [bmpTemperatureData],  // Datos de temperatura del BMP\n    labels: [\"\"]                 // Etiquetas (puedes personalizarlas)\n}];\n\n// Asignar el resultado al payload de salida\nmsg.payload = chart;\n\n// Asignar un tópico específico al mensaje (por ejemplo, \"sensor/bmp/temperature\")\nmsg.topic = \"sensor/bmp/temperature\";\n\n// Devolver el mensaje\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 780,
+        "wires": [
+            [
+                "2c382d49314773ae"
+            ]
+        ]
+    },
+    {
+        "id": "2c382d49314773ae",
+        "type": "ui_chart",
+        "z": "b03f20e68e5412c1",
+        "name": "",
+        "group": "7b8ca40ec955c1e8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Densidad de Polvo",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1550,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d022bce47e80fc3f",
+        "type": "debug",
+        "z": "b03f20e68e5412c1",
+        "name": "debug 27",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "277fd346f91346ec",
+        "type": "function",
+        "z": "b03f20e68e5412c1",
+        "name": "function 38",
+        "func": "// Obtener los datos de entrada\nlet payload = msg.payload;\n\n// Crear un arreglo para almacenar los datos de temperatura del BMP\nlet bmpTemperatureData = [];\n\n// Recorrer cada entrada y extraer la temperatura del BMP\npayload.forEach((entry) => {\n    // Convertir el timestamp a un formato numérico (milisegundos desde 1970)\n    let timestamp = new Date(entry.Timestamp).getTime();\n    // Agregar el punto de datos para la temperatura del BMP\n    bmpTemperatureData.push({ x: timestamp, y: entry[\"Solar Intensity\"] });\n});\n\n// Crear el objeto de salida\nlet chart = [{\n    series: [\"Lux \"], // Nombre de la serie\n    data: [bmpTemperatureData],  // Datos de temperatura del BMP\n    labels: [\"\"]                 // Etiquetas (puedes personalizarlas)\n}];\n\n// Asignar el resultado al payload de salida\nmsg.payload = chart;\n\n// Devolver el mensaje\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 820,
+        "wires": [
+            [
+                "3156581d2ba2de26"
+            ]
+        ]
+    },
+    {
+        "id": "3156581d2ba2de26",
+        "type": "ui_chart",
+        "z": "b03f20e68e5412c1",
+        "name": "",
+        "group": "4e07209d2352f01c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Luz",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1510,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1dd63d6ae7aad3d9",
+        "type": "inject",
+        "z": "b03f20e68e5412c1",
+        "name": "est2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"initDate\":\"2025-03-20T06:00:00.000Z\",\"endDate\":null,\"station1\":false,\"station2\":true,\"station3\":false,\"limit\":120}",
+        "payloadType": "json",
+        "x": 150,
+        "y": 480,
+        "wires": [
+            [
+                "6c5673bd7f116476"
+            ]
+        ]
+    },
+    {
+        "id": "2061078219259e28",
+        "type": "inject",
+        "z": "b03f20e68e5412c1",
+        "name": "est3",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"initDate\":\"2025-03-20T06:00:00.000Z\",\"endDate\":null,\"station1\":false,\"station2\":false,\"station3\":true,\"limit\":120}",
+        "payloadType": "json",
+        "x": 153,
+        "y": 545,
+        "wires": [
+            [
+                "6c5673bd7f116476"
+            ]
+        ]
+    },
+    {
+        "id": "4db4ec656c03e38a",
+        "type": "debug",
+        "z": "51e805e12028fa4f",
+        "name": "debug 51",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "25e64a1556c02335",
+        "type": "function",
+        "z": "51e805e12028fa4f",
+        "name": "Query mongoDB",
+        "func": "// Obtener la fecha inicial desde msg.payload.initDate\nlet initDate = new Date(msg.payload.initDate);\nmsg.format = msg.payload.format;\n// Ajustar la fecha a UTC-6 (Zona Horaria Central)\nlet initDateUTC6 = new Date(initDate);\ninitDateUTC6.setHours(initDate.getHours() - 6);\n\nmsg.limit = msg.payload.limit; // Asegurar que es número\n\n// Construir el query base\nlet query = {\n    \"date\": {\n        \"$gte\": initDateUTC6\n    }\n};\n\n// Si endDate está presente, ajustar el rango\nif (msg.payload.endDate) {\n    let endDate = new Date(msg.payload.endDate);\n    let endDateUTC6 = endDate;\n    endDateUTC6.setHours(endDate.getHours() - 6);\n\n    query.date = {\n        \"$gte\": initDateUTC6,\n        \"$lt\": endDateUTC6\n    };\n}\n\n// Filtrar por estaciones según las opciones seleccionadas\nif (msg.payload.hasOwnProperty('station1') ||\n    msg.payload.hasOwnProperty('station2') ||\n    msg.payload.hasOwnProperty('station3')) {\n\n    // Verificar si todas están en false\n    const allFalse = (\n        (msg.payload.station1 === false || !msg.payload.hasOwnProperty('station1')) &&\n        (msg.payload.station2 === false || !msg.payload.hasOwnProperty('station2')) &&\n        (msg.payload.station3 === false || !msg.payload.hasOwnProperty('station3'))\n    );\n\n    if (!allFalse) {\n        // Crear array de estaciones seleccionadas\n        let stations = [];\n\n        if (msg.payload.station1 === true) {\n            stations.push(\"1\");\n        }\n        if (msg.payload.station2 === true) {\n            stations.push(\"2\");\n        }\n        if (msg.payload.station3 === true) {\n            stations.push(\"3\");\n        }\n\n        // Añadir condición al query solo si hay estaciones seleccionadas\n        if (stations.length > 0) {\n            query.station = { \"$in\": stations };\n        }\n    }\n    // Si todas son false, no se añade filtro y se muestran todas\n}\n\n// Configurar el mensaje final\nmsg.payload = query;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 420,
+        "wires": [
+            [
+                "9b2670dd82953877",
+                "d5d0b5030439e209"
+            ]
+        ]
+    },
+    {
+        "id": "9b2670dd82953877",
+        "type": "debug",
+        "z": "51e805e12028fa4f",
+        "name": "debug 52",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "d5d0b5030439e209",
+        "type": "mongodb in",
+        "z": "51e805e12028fa4f",
+        "mongodb": "a9438b3e766f8d8e",
+        "name": "",
+        "collection": "datos",
+        "operation": "find",
+        "x": 600,
+        "y": 440,
+        "wires": [
+            [
+                "7961cc4f297d0de3",
+                "762c5cf5caaa54ab",
+                "f59d56838e7c6394"
+            ]
+        ]
+    },
+    {
+        "id": "7961cc4f297d0de3",
+        "type": "debug",
+        "z": "51e805e12028fa4f",
+        "name": "debug 53",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "abd96e7ee693488b",
+        "type": "debug",
+        "z": "51e805e12028fa4f",
+        "name": "debug 54",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1020,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "f59d56838e7c6394",
+        "type": "http request",
+        "z": "51e805e12028fa4f",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "body",
+        "url": "127.0.0.1:1880/get-data",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 810,
+        "y": 480,
+        "wires": [
+            [
+                "492d7838d3ee706c",
+                "9b92359ad4148069"
+            ]
+        ]
+    },
+    {
+        "id": "9b92359ad4148069",
+        "type": "function",
+        "z": "51e805e12028fa4f",
+        "name": "function 40",
+        "func": "if (msg.statusCode == 200){\n    msg.show = true;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 540,
+        "wires": [
+            [
+                "b9e0dd506484b5f3",
+                "1bb28fd87900da2f"
+            ]
+        ]
+    },
+    {
+        "id": "492d7838d3ee706c",
+        "type": "debug",
+        "z": "51e805e12028fa4f",
+        "name": "debug 55",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1020,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "1bb28fd87900da2f",
+        "type": "debug",
+        "z": "51e805e12028fa4f",
+        "name": "debug 56",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "b9e0dd506484b5f3",
+        "type": "ui_template",
+        "z": "51e805e12028fa4f",
+        "group": "de38b34b92ed2ef5",
+        "name": "Enlace descarga",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-if=\"msg.show\">\n    <div>\n    <a href=\"/get-data\">Descargar Archivo</a>\n   </div>\n</div>\n<div ng-if=\"!msg.show\">\n    <p>Genere el archivo primero </p>\n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1210,
+        "y": 560,
+        "wires": [
+            [
+                "443be3b9a9ac80f6"
+            ]
+        ]
+    },
+    {
+        "id": "443be3b9a9ac80f6",
+        "type": "debug",
+        "z": "51e805e12028fa4f",
+        "name": "debug 57",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "762c5cf5caaa54ab",
+        "type": "function",
+        "z": "51e805e12028fa4f",
+        "name": "Format Results",
+        "func": "let results = msg.payload; // Datos originales\n\n// Determinar el formato basado en msg.format (true=JSON, false=CSV)\nlet outputFormat = (msg.format === true) ? 'json' : 'csv';\n\nif (outputFormat === 'json') {\n    // Procesamiento para JSON\n    let jsonData = results.map(item => {\n        let dataParts = item.data.split(',');\n\n        return {\n            ID: dataParts[0],\n            bmpTemperature: parseFloat(dataParts[1]),\n            pressure: parseFloat(dataParts[2]),\n            altitude: parseFloat(dataParts[3]),\n            ahtTemperature: parseFloat(dataParts[4]),\n            ahtHumidity: parseFloat(dataParts[5]),\n            xAccel: parseFloat(dataParts[6]),\n            yAccel: parseFloat(dataParts[7]),\n            zAccel: parseFloat(dataParts[8]),\n            dustDensity: parseFloat(dataParts[9]),\n            photoResistorValue: parseInt(dataParts[10]),\n            timestamp: dataParts[11]\n        };\n    });\n\n    msg.payload = JSON.stringify(jsonData, null, 2); // Formato bonito con indentación\n    msg.filename = \"/tmp/data\";\n} else {\n    // Procesamiento para CSV\n    let csvLines = [];\n\n    // Encabezado CSV (con zAccel)\n    csvLines.push(\"ID,bmpTemperature,pressure,altitude,ahtTemperature,ahtHumidity,xAccel,yAccel,zAccel,dustDensity,photoResistorValue,timestamp\");\n\n    results.forEach(item => {\n        csvLines.push(item.data); // Los datos ya vienen en formato CSV\n    });\n\n    msg.payload = csvLines.join('\\n');\n    msg.filename = \"/tmp/data\";\n}\n\n// Opcional: eliminar la propiedad format si no se necesita después\n// delete msg.format;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 440,
+        "wires": [
+            [
+                "ccb4a439cb696d8a",
+                "abd96e7ee693488b"
+            ]
+        ]
+    },
+    {
+        "id": "ccb4a439cb696d8a",
+        "type": "file",
+        "z": "51e805e12028fa4f",
+        "name": "Save File",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1020,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4e93cf40ac987d46",
+        "type": "function",
+        "z": "51e805e12028fa4f",
+        "name": "Almacenar y query",
+        "func": "// Node-RED function\nmsg.payload = {\n    ...msg.payload,\n    currentDate: new Date().toISOString() // Agrega la fecha actual\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 340,
+        "wires": [
+            [
+                "9d5fd14f59bf9368"
+            ]
+        ]
+    },
+    {
+        "id": "9d5fd14f59bf9368",
+        "type": "mongodb out",
+        "z": "51e805e12028fa4f",
+        "mongodb": "a9438b3e766f8d8e",
+        "name": "",
+        "collection": "descargas",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "store",
+        "x": 630,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "831188de47b7948c",
+        "type": "ui_form",
+        "z": "51e805e12028fa4f",
+        "name": "",
+        "label": "",
+        "group": "de38b34b92ed2ef5",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Nombre",
+                "value": "name",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Correo Electrónico",
+                "value": "email",
+                "type": "email",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Fecha Inicio",
+                "value": "initDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Fecha Final",
+                "value": "endDate",
+                "type": "date",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Motivo de Descarga",
+                "value": "reason",
+                "type": "multiline",
+                "required": false,
+                "rows": 3
+            },
+            {
+                "label": "Estación ingenieria",
+                "value": "station1",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Estación Zona 3",
+                "value": "station2",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Estación zona 8 ",
+                "value": "station3",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "CSV o JSON",
+                "value": "format",
+                "type": "switch",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "name": "",
+            "email": "",
+            "initDate": "",
+            "endDate": "",
+            "reason": "",
+            "station1": false,
+            "station2": false,
+            "station3": false,
+            "format": false
+        },
+        "payload": "",
+        "submit": "Generar Archivo",
+        "cancel": "Cancelar",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 170,
+        "y": 400,
+        "wires": [
+            [
+                "4e93cf40ac987d46",
+                "25e64a1556c02335",
+                "4db4ec656c03e38a"
+            ]
+        ]
+    },
+    {
+        "id": "ea422c5bddb5444d",
+        "type": "http in",
+        "z": "51e805e12028fa4f",
+        "name": "Query Endpoint",
+        "url": "/get-data",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 420,
+        "y": 660,
+        "wires": [
+            [
+                "81b2da781c7b8412",
+                "9cbab31b58268175"
+            ]
+        ]
+    },
+    {
+        "id": "81b2da781c7b8412",
+        "type": "file in",
+        "z": "51e805e12028fa4f",
+        "name": "",
+        "filename": "/tmp/data",
+        "filenameType": "str",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 600,
+        "y": 660,
+        "wires": [
+            [
+                "39b0e3a2deb6c741",
+                "0684673a492f3cca"
+            ]
+        ]
+    },
+    {
+        "id": "39b0e3a2deb6c741",
+        "type": "http response",
+        "z": "51e805e12028fa4f",
+        "name": "Send File",
+        "statusCode": "",
+        "headers": {
+            "Content-Type": "application/json",
+            "Content-Disposition": "attachment; filename=query_results.json"
+        },
+        "x": 760,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "9cbab31b58268175",
+        "type": "debug",
+        "z": "51e805e12028fa4f",
+        "name": "debug 59",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "0684673a492f3cca",
+        "type": "debug",
+        "z": "51e805e12028fa4f",
+        "name": "debug 60",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "8b37b9d5d590f76f",
+        "type": "http in",
+        "z": "ecf7a29fdbed6cf7",
+        "name": "",
+        "url": "/",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [
+                "51e04ebecc834ece"
+            ]
+        ]
+    },
+    {
+        "id": "352fdfce6b68cf98",
+        "type": "http response",
+        "z": "ecf7a29fdbed6cf7",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 490,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "51e04ebecc834ece",
+        "type": "template",
+        "z": "ecf7a29fdbed6cf7",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"es\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Redireccionando...</title>\n    <script>\n        window.location.href = \"/ui\"; // Cambia la URL de destino\n    </script>\n</head>\n\n<body>\n    <p>Si la redirección no ocurre automáticamente, <a href=\"https://www.ejemplo.com\">haz clic aquí</a>.</p>\n</body>\n\n</html>",
+        "output": "str",
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "352fdfce6b68cf98"
+            ]
+        ]
+    },
+    {
+        "id": "2d3281dccedc7153",
+        "type": "inject",
+        "z": "ecf7a29fdbed6cf7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 260,
+        "wires": [
+            [
+                "316fc809f51f1d29"
+            ]
+        ]
+    },
+    {
+        "id": "316fc809f51f1d29",
+        "type": "function",
+        "z": "ecf7a29fdbed6cf7",
+        "name": "function 41",
+        "func": "msg.payload = {};\nmsg.operation = \"countDocuments\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 260,
+        "wires": [
+            [
+                "be6d72992d5c05c6"
+            ]
+        ]
+    },
+    {
+        "id": "be6d72992d5c05c6",
+        "type": "mongodb in",
+        "z": "ecf7a29fdbed6cf7",
+        "mongodb": "a9438b3e766f8d8e",
+        "name": "",
+        "collection": "datos",
+        "operation": "count",
+        "x": 600,
+        "y": 260,
+        "wires": [
+            [
+                "b6fdf1085f065268"
+            ]
+        ]
+    },
+    {
+        "id": "b6fdf1085f065268",
+        "type": "debug",
+        "z": "ecf7a29fdbed6cf7",
+        "name": "debug 61",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 260,
+        "wires": []
+    }
+]
