@@ -64,9 +64,7 @@ Ambas versiones transmiten datos por **LoRa/WiFi** y se visualizan con **Node-RE
 
 ├── kicad/ # Archivos del diseño PCB en KiCad
 
-├── videos/ # Guías en video paso a paso
 
-└── manual_tecnico.pdf # Resolución de problemas y guía técnica
 
 
 ### Contenido detallado
@@ -134,16 +132,6 @@ Instalable en Raspberry Pi, PC o nube.
 - KiCad 7.x
 - Fuente 5V 1A
 - microSD (<8 GB) para CanSat
-
----
-
-## 🧰 Resolución de Problemas
-
-Consulta `manual_tecnico.pdf` para:
-- Sensores no detectados
-- Lecturas incorrectas
-- Fallos de comunicación
-- Problemas con tarjeta SD
 
 ---
 
